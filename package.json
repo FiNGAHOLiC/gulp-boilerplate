@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://fingaholic@bitbucket.org/fingaholic/kayme.git"
+    "url": "git@github.com:FiNGAHOLiC/gulp-scaffolding.git"
   },
   "author": "fingaholic"
 }
