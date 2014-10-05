@@ -1,6 +1,6 @@
 # Gulp Scaffolding
 
-Under Development
+***Under Development***
 
 ## Usage
 
@@ -11,7 +11,7 @@ $ npm install
 
 ## Run Gulp
 
-Development Mode
+### Development Mode
 
 ```bash
 gulp
@@ -22,7 +22,7 @@ gulp
 4. Run local server
 5. Watch jade, coffee, scss file
 
-Production Mode
+### Production Mode
 
 ```bash
 gulp --type production
