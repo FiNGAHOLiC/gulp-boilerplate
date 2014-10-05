@@ -1,8 +1,3 @@
-# TODO
-# * gulp-sourcemaps導入
-# * notifyの導入（http://nakajmg.github.io/blog/2014-08-13/gulp-plumber-and-gulp-notify.html）
-# * タスクの分割（http://dev.classmethod.jp/client-side/javascript/gulp-js-task-files/）
-
 # modules
 gulp = require 'gulp'
 imagemin = require 'gulp-imagemin';
