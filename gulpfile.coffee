@@ -67,9 +67,9 @@ gulp.task 'webserver', ->
 
 # watch
 gulp.task 'watch', ->
-  gulp.watch 'development/_src/*.jade', ['jade-development']
-  gulp.watch 'development/assets/css/_src/*.scss', ['sass-development']
-  gulp.watch 'development/assets/js/_src/*.coffee', ['coffee-development']
+  gulp.watch 'development/_src/*.jade', ['jade']
+  gulp.watch 'development/assets/css/_src/*.scss', ['sass']
+  gulp.watch 'development/assets/js/_src/*.coffee', ['coffee']
   return
 
 # clean
