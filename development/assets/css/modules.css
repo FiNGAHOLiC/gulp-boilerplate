@@ -1,0 +1,17 @@
+.mod-red {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: red; }
+
+.mod-blue {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: blue; }
+
+.mod-yellow {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: yellow; }
