@@ -44,7 +44,7 @@ gulp.task 'coffee', ->
     .pipe coffee()
     .pipe if isProduction then concat 'all.min.js' else gutil.noop()
     .pipe if isProduction then uglifyJS() else gutil.noop()
-    .pipe gulp.dest 'production/assets/js'
+    .pipe gulp.dest dest + '/assets/css'
 
 # imagemin
 gulp.task 'imagemin', ->
