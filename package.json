@@ -19,7 +19,8 @@
     "gulp-autoprefixer": "~1.0.1",
     "gulp-util": "~3.0.1",
     "gulp-imagemin": "~1.0.1",
-    "imagemin-pngcrush": "~1.0.0"
+    "imagemin-pngcrush": "~1.0.0",
+    "gulp-load-plugins": "~0.7.0"
   },
   "repository": {
     "type": "git",

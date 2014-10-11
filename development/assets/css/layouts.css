@@ -1,0 +1,14 @@
+.mod-foo {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.mod-bar {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.mod-baz {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
