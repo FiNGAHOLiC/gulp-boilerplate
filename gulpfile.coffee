@@ -16,6 +16,7 @@ gulp.task 'jade', ->
   dest = if isProduction then 'production' else 'development'
   gulp.src 'development/_src/*.jade'
     .pipe plugins.jade locals: production: isProduction
+    .pipe plugins.size showFiles: true
     .pipe gulp.dest dest
 
 # sass
@@ -26,6 +27,7 @@ gulp.task 'sass', ->
     .pipe plugins.autoprefixer browsers: ['last 2 versions']
     .pipe if isProduction then plugins.concat 'all.min.css' else plugins.util.noop()
     .pipe if isProduction then plugins.minifyCss() else plugins.util.noop()
+    .pipe plugins.size showFiles: true
     .pipe gulp.dest dest + '/assets/css'
 
 # coffee
@@ -35,6 +37,7 @@ gulp.task 'coffee', ->
     .pipe plugins.coffee()
     .pipe if isProduction then plugins.concat 'all.min.js' else plugins.util.noop()
     .pipe if isProduction then plugins.uglify() else plugins.util.noop()
+    .pipe plugins.size showFiles: true
     .pipe gulp.dest dest + '/assets/js'
 
 # imagemin

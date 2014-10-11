@@ -20,7 +20,8 @@
     "gulp-util": "~3.0.1",
     "gulp-imagemin": "~1.0.1",
     "imagemin-pngcrush": "~1.0.0",
-    "gulp-load-plugins": "~0.7.0"
+    "gulp-load-plugins": "~0.7.0",
+    "gulp-size": "~1.1.0"
   },
   "repository": {
     "type": "git",
