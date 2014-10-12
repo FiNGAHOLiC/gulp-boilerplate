@@ -55,7 +55,7 @@ gulp.task 'webserver', ->
   gulp.src src
     .pipe plugins.webserver
       port: 8000
-      livereload: isProduction
+      livereload: !isProduction
       directoryListing: false
       open: true
 
