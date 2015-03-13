@@ -1,0 +1,12 @@
+// clearfix
+%clearfix {
+  overflow: hidden;
+  zoom: 1;
+}
+
+// ellipsis
+%ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

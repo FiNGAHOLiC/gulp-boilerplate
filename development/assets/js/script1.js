@@ -1,6 +1,6 @@
 (function() {
   (function(win) {
-    win.alert(1);
+    win.console.log(1);
   })(window);
 
 }).call(this);

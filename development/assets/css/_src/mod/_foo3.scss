@@ -1,0 +1,6 @@
+// mod-foo3
+.mod-foo3 {
+  @extend %clearfix;
+  @extend %ellipsis;
+  background: red;
+}

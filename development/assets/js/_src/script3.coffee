@@ -1,4 +1,4 @@
 ((win) ->
-  win.alert 3
+  win.console.log 3
   return
 ) window

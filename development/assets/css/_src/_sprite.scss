@@ -1,0 +1,85 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$icon-f-name: 'icon_f';
+$icon-f-x: 0px;
+$icon-f-y: 0px;
+$icon-f-offset-x: 0px;
+$icon-f-offset-y: 0px;
+$icon-f-width: 16px;
+$icon-f-height: 16px;
+$icon-f-total-width: 120px;
+$icon-f-total-height: 120px;
+$icon-f-image: '/assets/img/sprite/sprite.png';
+$icon-f: (0px, 0px, 0px, 0px, 16px, 16px, 120px, 120px, '/assets/img/sprite/sprite.png', 'icon_f', );
+$icon-f-l-name: 'icon_f_l';
+$icon-f-l-x: 48px;
+$icon-f-l-y: 48px;
+$icon-f-l-offset-x: -48px;
+$icon-f-l-offset-y: -48px;
+$icon-f-l-width: 24px;
+$icon-f-l-height: 24px;
+$icon-f-l-total-width: 120px;
+$icon-f-l-total-height: 120px;
+$icon-f-l-image: '/assets/img/sprite/sprite.png';
+$icon-f-l: (48px, 48px, -48px, -48px, 24px, 24px, 120px, 120px, '/assets/img/sprite/sprite.png', 'icon_f_l', );
+$icon-m-name: 'icon_m';
+$icon-m-x: 16px;
+$icon-m-y: 16px;
+$icon-m-offset-x: -16px;
+$icon-m-offset-y: -16px;
+$icon-m-width: 16px;
+$icon-m-height: 16px;
+$icon-m-total-width: 120px;
+$icon-m-total-height: 120px;
+$icon-m-image: '/assets/img/sprite/sprite.png';
+$icon-m: (16px, 16px, -16px, -16px, 16px, 16px, 120px, 120px, '/assets/img/sprite/sprite.png', 'icon_m', );
+$icon-m-l-name: 'icon_m_l';
+$icon-m-l-x: 72px;
+$icon-m-l-y: 72px;
+$icon-m-l-offset-x: -72px;
+$icon-m-l-offset-y: -72px;
+$icon-m-l-width: 24px;
+$icon-m-l-height: 24px;
+$icon-m-l-total-width: 120px;
+$icon-m-l-total-height: 120px;
+$icon-m-l-image: '/assets/img/sprite/sprite.png';
+$icon-m-l: (72px, 72px, -72px, -72px, 24px, 24px, 120px, 120px, '/assets/img/sprite/sprite.png', 'icon_m_l', );
+$icon-t-name: 'icon_t';
+$icon-t-x: 32px;
+$icon-t-y: 32px;
+$icon-t-offset-x: -32px;
+$icon-t-offset-y: -32px;
+$icon-t-width: 16px;
+$icon-t-height: 16px;
+$icon-t-total-width: 120px;
+$icon-t-total-height: 120px;
+$icon-t-image: '/assets/img/sprite/sprite.png';
+$icon-t: (32px, 32px, -32px, -32px, 16px, 16px, 120px, 120px, '/assets/img/sprite/sprite.png', 'icon_t', );
+$icon-t-l-name: 'icon_t_l';
+$icon-t-l-x: 96px;
+$icon-t-l-y: 96px;
+$icon-t-l-offset-x: -96px;
+$icon-t-l-offset-y: -96px;
+$icon-t-l-width: 24px;
+$icon-t-l-height: 24px;
+$icon-t-l-total-width: 120px;
+$icon-t-l-total-height: 120px;
+$icon-t-l-image: '/assets/img/sprite/sprite.png';
+$icon-t-l: (96px, 96px, -96px, -96px, 24px, 24px, 120px, 120px, '/assets/img/sprite/sprite.png', 'icon_t_l', );
+$spritesheet-width: 120px;
+$spritesheet-height: 120px;
+$spritesheet-image: '/assets/img/sprite/sprite.png';
+$spritesheet-sprites: ($icon-f, $icon-f-l, $icon-m, $icon-m-l, $icon-t, $icon-t-l, );
+$spritesheet: (120px, 120px, '/assets/img/sprite/sprite.png', $spritesheet-sprites, );
+

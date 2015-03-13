@@ -1,0 +1,6 @@
+
+.mod-foo2 {
+  @extend %clearfix;
+  @extend %ellipsis;
+  background: yellow;
+}

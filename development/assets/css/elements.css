@@ -1,11 +1,6 @@
-.mod-foo1, .mod-foo2, .mod-foo3 {
+.elm-foo1, .elm-foo2, .elm-foo3 {
   overflow: hidden;
   zoom: 1; }
-
-.mod-foo1, .mod-foo2, .mod-foo3 {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap; }
 
 /*
 SCSS variables are information about icon's compiled state, stored under its original file name
@@ -20,11 +15,11 @@ $icon-home: x y offset_x offset_y width height total_width total_height image_pa
 At the bottom of this section, we provide information about the spritesheet itself
 $spritesheet: width height image $spritesheet-sprites;
 */
-.mod-foo1 {
+.elm-foo1 {
   background: blue; }
 
-.mod-foo2 {
+.elm-foo2 {
   background: yellow; }
 
-.mod-foo3 {
+.elm-foo3 {
   background: red; }
