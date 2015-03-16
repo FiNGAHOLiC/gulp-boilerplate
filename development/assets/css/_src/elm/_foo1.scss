@@ -1,5 +1,7 @@
 // elm-foo
 .elm-foo1 {
-  @extend %clearfix;
-  background: blue;
+  @include sprite($icon_f);
+  &.size-l {
+    @include sprite($icon_f_l);
+  }
 }

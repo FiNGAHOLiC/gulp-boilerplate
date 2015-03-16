@@ -1,5 +1,7 @@
 // elm-foo3
 .elm-foo3 {
-  @extend %clearfix;
-  background: red;
+  @include sprite($icon_t);
+  &.size-l {
+    @include sprite($icon_t_l);
+  }
 }
