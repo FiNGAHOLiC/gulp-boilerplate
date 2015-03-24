@@ -50,7 +50,7 @@ gulp.task 'sprite', ->
 
 # imagemin
 gulp.task 'imagemin', ->
-  gulp.src 'development/assets/img/**/*'
+  gulp.src ['development/assets/img/**/*', '!development/assets/img/**/_src', '!development/assets/img/**/_src/*']
   .pipe plugins.imagemin
     optimizationLevel: 4
     progressive: true
